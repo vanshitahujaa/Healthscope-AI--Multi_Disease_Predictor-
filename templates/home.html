@@ -1,0 +1,106 @@
+{% extends 'main.html' %}
+{% block content %}
+{% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+<div class="container">
+    <div class="card card-body" style="border: 1px solid black; box-shadow: 0 0 10px black;">
+        <h2>Welcome to Our Machine Learning and Deep Learning Web Application!</h2>
+        <p>This application leverages advanced Machine Learning and Deep Learning models trained on extensive datasets and numerous images.</p>
+        <br>
+        <h2>Model Performance:</h2>
+        <ul>
+            <li>Diabetes Model: <strong>98.25%</strong></li>
+            <li>Breast Cancer Model: <strong>98.25%</strong></li>
+            <li>Heart Disease Model: <strong>85.25%</strong></li>
+            <li>Kidney Disease Model: <strong>99%</strong></li>
+            <li>Liver Disease Model: <strong>78%</strong></li>
+            <li>Malaria Model: <strong>96%</strong></li>
+            <li>Pneumonia Model: <strong>95%</strong></li>
+        </ul>
+        <br>
+        <h3>About the Diseases This Application Can Predict:</h3>
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Diabetes</h4>
+                <p>Diabetes is a condition that occurs when your blood glucose levels are too high. Blood glucose is your primary energy source and comes from the food you consume. Insulin, a hormone produced by the pancreas, helps glucose from food enter your cells for energy. Sometimes, your body doesn’t produce enough insulin or doesn’t use it effectively, causing glucose to remain in your blood.</p>
+                <h5>Common Symptoms</h5>
+                <ul>
+                    <li>Frequent urination.</li>
+                    <li>Excessive thirst.</li>
+                    <li>Extreme fatigue.</li>
+                    <li>Blurred vision.</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Breast Cancer</h4>
+                <p>Breast cancer occurs when cells in the breast begin to grow uncontrollably. It is the second most common cancer diagnosed in women in the United States, but it can also affect men.</p>
+                <h5>Common Symptoms</h5>
+                <ul>
+                    <li>A noticeable lump or thickening in the breast tissue.</li>
+                    <li>Changes in size or shape of the breast.</li>
+                    <li>Skin changes over the breast, like dimpling or irritation.</li>
+                    <li>Redness or pitting of the skin, resembling the texture of an orange.</li>
+                </ul>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Chronic Kidney Disease</h4>
+                <p>This condition, also known as chronic kidney failure, describes the gradual loss of kidney function. The kidneys filter waste and excess fluids from the blood, which are eliminated in urine. In advanced stages, harmful levels of fluids, electrolytes, and waste can accumulate in the body.</p>
+                <h5>Common Symptoms</h5>
+                <ul>
+                    <li>Nausea and vomiting.</li>
+                    <li>Feeling fatigued and weak.</li>
+                    <li>Muscle twitches and cramps.</li>
+                </ul>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Liver Disease</h4>
+                <p>Symptoms of liver disease can vary widely, but they may include abdominal swelling, easy bruising, changes in stool and urine color, and jaundice (yellowing of the skin and eyes). Sometimes, there are no noticeable symptoms. Tests such as imaging and liver function tests can help diagnose liver conditions.</p>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Malaria</h4>
+                <p>Malaria is a mosquito-borne disease that infects humans and animals. Symptoms typically include fever, fatigue, vomiting, and headaches. In severe cases, it can cause jaundice, seizures, coma, or even death. Symptoms usually appear 10 to 15 days after being bitten by an infected mosquito, and untreated individuals may experience recurrences of the disease later on.</p>
+                <h5>Common Symptoms</h5>
+                <ul>
+                    <li>Fever (the most common symptom).</li>
+                    <li>Chills and sweating.</li>
+                    <li>Headache.</li>
+                    <li>Nausea and vomiting.</li>
+                </ul>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Pneumonia</h4>
+                <p>Pneumonia is an infection that inflames the air sacs in one or both lungs, which may fill with fluid or pus, causing cough with phlegm, fever, chills, and difficulty breathing. Various organisms, including bacteria, viruses, and fungi, can cause pneumonia.</p>
+                <h5>Common Symptoms</h5>
+                <ul>
+                    <li>Persistent cough, which may produce greenish, yellow, or bloody mucus.</li>
+                    <li>Fever, accompanied by sweating and chills.</li>
+                    <li>Shortness of breath.</li>
+                    <li>Rapid and shallow breathing.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock %}
